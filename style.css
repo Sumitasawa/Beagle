@@ -1,22 +1,28 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 10px;
+  margin: 20px;
+  background-color: #f8f8f8;  /* soft background */
+  color: #222;
 }
 
+
 .container {
-  max-width: 600px;
-  margin: auto;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
+
+
 
 .blog-box {
   border: 1px solid black;
-  padding: 1px;
+  padding: 15px;
   margin-bottom: 20px;
 }
 
 .beagle-img {
-  width: 100%;
-  max-width: 500px;
+  width: 50%;
+  max-width: 300px;
   height: auto;
   display: block;
   margin-bottom: 10px;
