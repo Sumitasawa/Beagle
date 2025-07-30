@@ -1,28 +1,49 @@
-body {
+/* General page styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f8f8f8;  /* soft background */
+  background-color: #f8f8f8;
   color: #222;
 }
 
-
+/* Main container */
 .container {
   width: 100%;
-  padding: 20px;
+  min-height: 100vh;
+  padding: 30px 60px;
   box-sizing: border-box;
 }
 
-
-
-.blog-box {
-  border: 1px solid black;
-  padding: 15px;
+/* Headings */
+.heading {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 32px;
   margin-bottom: 20px;
+  
 }
 
+.subheading {
+  text-decoration: underline;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* Blog content box */
+.blog-box {
+  border: 1px solid black;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Image styling */
 .beagle-img {
-  width: 50%;
-  max-width: 300px;
+  width: 100%;
+  max-width: 400px;
   height: auto;
   display: block;
   margin-bottom: 10px;
